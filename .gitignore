@@ -1,0 +1,28 @@
+# Model weights
+*.pt
+*.weights
+
+# Dataset folders
+datasets/
+data/
+
+# YOLO output folders
+runs/
+
+# Videos & images (optional)
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+venv/
+.env
+smoke_dataset/
