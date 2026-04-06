@@ -5,15 +5,14 @@
 # Dataset folders
 datasets/
 data/
+smoke_dataset/
 
 # YOLO output folders
 runs/
 
-# Videos & images (optional)
+# Videos
 *.mp4
 *.avi
-*.jpg
-*.png
 
 # Python cache
 __pycache__/
@@ -25,4 +24,10 @@ __pycache__/
 # Environment files
 venv/
 .env
-smoke_dataset/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
